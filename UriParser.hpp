@@ -1,3 +1,6 @@
+#ifndef uri_parser_uriparser_hpp
+#define uri_parser_uriparser_hpp
+
 #include <iostream>
 #include <string>
 #include <stdlib.h>
@@ -74,3 +77,4 @@ namespace http {
         return ret;
     }
 }
+#endif
